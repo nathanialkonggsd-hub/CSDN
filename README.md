@@ -26,11 +26,27 @@ TinyML / Embedded AI
 
 同时记录 Vibe Coding 与 AI 辅助软件工程实践。
 
+## ⭐ 代表项目
+
+> 文章负责记录过程，项目负责展示最终能力。
+
+| 项目 | 定位 | 状态 |
+|---|---|---|
+| [c_webserver](https://github.com/nathanialkonggsd-hub/c_webserver) | C/C++ 工程实践 | 已有项目 |
+| [STM32-Gesture-TinyML](https://github.com/nathanialkonggsd-hub/STM32-Gesture-TinyML) | STM32 + TinyML 端侧手势识别 | ⭐ 旗舰方向 |
+| Qt Mini IDE | Qt/CMake/GDB 桌面工程 | 规划中 |
+| STM32 综合项目 | 传感器 + 显示 + 通信的嵌入式系统 | 规划中 |
+| 数据结构可视化 | 数据结构与算法可视化实践 | 规划中 |
+
+已有项目仓库与文章知识库分工明确：**本仓库负责知识沉淀与成长记录，独立项目仓库负责代码、架构、版本迭代与最终成果展示。**
+
 ## 🧭 内容导航
 
 | 入口 | 内容 |
 |---|---|
 | [文章总索引](docs/文章索引.md) | 按全局编号整理全部文章 |
+| [专栏索引](docs/专栏索引.md) | 按 CSDN 专栏 / 技术方向浏览 |
+| [文章—项目映射](docs/文章-项目映射.md) | 查看文章如何沉淀为代表项目 |
 | [技术成长路线](docs/技术成长路线.md) | 从 01 开始梳理技术能力演进 |
 | [项目路线](docs/项目路线.md) | 从文章积累转向可展示的工程项目 |
 | [后续文章规划](CSDN文章/后续文章规划.md) | 当前与未来创作计划 |
