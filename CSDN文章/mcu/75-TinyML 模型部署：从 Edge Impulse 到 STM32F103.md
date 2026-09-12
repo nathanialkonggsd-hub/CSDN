@@ -213,7 +213,7 @@ int Model_Run_Inference(
 
 ---
 
-## 系列进度
+## 📚 系列导航
 
 | # | 主题 | 状态 |
 |---:|:---|:---:|
@@ -221,7 +221,18 @@ int Model_Run_Inference(
 | 73 | STM32 手势数据采集：从串口到 CSV 数据集 | ✅ |
 | 74 | TinyML 特征提取与模型训练：V1 → V2 | ✅ |
 | **75** | **TinyML 模型部署：Edge Impulse → STM32F103** | 🟢 本文 |
-| 76 | STM32 端侧实时推理 | ⏳ |
-| 77 | TinyML 工程优化：Bug 与性能 | ⏳ |
-| 78 | 第一阶段项目总结 | ⏳ |
+| 76 | STM32 端侧实时手势推理 | ⏳ |
+| 77 | TinyML 工程优化：从 HardFault 到 32ms 推理 | ⏳ |
+| 78 | 第一阶段总结：STM32 TinyML 手势识别系统完整跑通 | ⏳ |
 | 79+ | 第二阶段：数据集扩充与泛化优化 | 🔮 |
+
+## 🔗 项目地址
+
+- **STM32 TinyML 项目仓库**：https://github.com/nathanialkonggsd-hub/STM32-Gesture-TinyML
+- **CSDN 文章仓库**：https://github.com/nathanialkonggsd-hub/CSDN
+
+## 👋 结语
+
+感谢阅读！如果这篇文章对你有帮助，欢迎收藏、点赞，也欢迎在评论区交流。
+
+项目仍在持续迭代，后续会继续记录从“能跑”到“可靠、可复现、可泛化”的过程。
