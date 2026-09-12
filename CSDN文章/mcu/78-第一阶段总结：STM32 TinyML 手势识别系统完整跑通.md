@@ -125,7 +125,12 @@ Feature / DSP 优化
 V2 ≈ 2 ms
 ```
 
-![V2 特征空间](https://cdn.jsdelivr.net/gh/nathanialkonggsd-hub/STM32-Gesture-TinyML@main/STM32-Gesture-TinyML/03_Images_and_Results/ei_feature_explorer_V2.png#pic_center)
+> 🖼️ **图片 01｜V2 特征空间**
+>
+> 请将原图下载到本地后，通过 CSDN 工具栏「图片」上传。
+>
+> 原图地址：
+> https://github.com/nathanialkonggsd-hub/STM32-Gesture-TinyML/blob/main/STM32-Gesture-TinyML/03_Images_and_Results/ei_feature_explorer_V2.png
 
 当前数据集 / 当前验证划分下，V2 验证结果达到 **100%**。
 
@@ -194,7 +199,12 @@ MODE_SHOW_RESULT
 
 完成一次完整识别。
 
-![OLED 手势识别结果](https://cdn.jsdelivr.net/gh/nathanialkonggsd-hub/STM32-Gesture-TinyML@main/STM32-Gesture-TinyML/03_Images_and_Results/oled_result_display.jpg#pic_center)
+> 🖼️ **图片 02｜OLED 手势识别结果**
+>
+> 请将原图下载到本地后，通过 CSDN 工具栏「图片」上传。
+>
+> 原图地址：
+> https://github.com/nathanialkonggsd-hub/STM32-Gesture-TinyML/blob/main/STM32-Gesture-TinyML/03_Images_and_Results/oled_result_display.jpg
 
 ---
 
@@ -347,33 +357,28 @@ C / C++、STM32、Python、TinyML、OLED、串口，不再是孤立知识点。
 
 ---
 
-## 系列进度
+## 📚 系列导航
 
 | # | 主题 | 状态 |
 |---:|:---|:---:|
 | 72 | 项目启动：系统架构与 MPU6050 数据采集 | ✅ |
 | 73 | STM32 手势数据采集：从串口到 CSV 数据集 | ✅ |
 | 74 | TinyML 特征提取与模型训练：V1 → V2 | ✅ |
-| 75 | TinyML 模型部署：Edge Impulse → STM32 | ✅ |
+| 75 | TinyML 模型部署：Edge Impulse → STM32F103 | ✅ |
 | 76 | STM32 端侧实时手势推理 | ✅ |
 | 77 | TinyML 工程优化：从 HardFault 到 32ms 推理 | ✅ |
 | **78** | **第一阶段总结：STM32 TinyML 手势识别系统完整跑通** | 🟢 本文 |
 | 79+ | 第二阶段：数据集扩充与泛化优化 | 🔮 |
 
----
+## 🔗 项目地址
 
-## 结语
+- **STM32 TinyML 项目仓库**：https://github.com/nathanialkonggsd-hub/STM32-Gesture-TinyML
+- **CSDN 文章仓库**：https://github.com/nathanialkonggsd-hub/CSDN
+
+## 👋 结语
 
 第一阶段真正完成的，不只是一个“能识别手势”的 Demo。
 
-更重要的是，我第一次把：
+感谢一路阅读到这里。下一阶段，我会继续把这个项目从“能跑”推进到“可靠、可复现、可泛化”。
 
-> **传感器 → 数据 → AI → MCU → 工程优化**
-
-串成了一条完整链路。
-
-下一阶段，目标也会发生变化：
-
-> **不再只追求“能跑”，而是开始追求“可靠、可复现、可泛化”。**
-
-**项目状态：** 🚧 持续开发中
+如果这篇系列对你有帮助，欢迎收藏、点赞，也欢迎在评论区交流。
