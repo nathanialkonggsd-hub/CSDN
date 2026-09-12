@@ -1,14 +1,14 @@
----
-number: 78
-category:
-  - MCU
-  - TinyML
-  - Embedded AI
-series: STM32
-level: Advanced
-type: Project Summary
-status: Completed
----
+> 🧭 **文章档案｜STM32 TinyML 手势识别系列**
+>
+> **📌 编号**：No.78　｜　**🚀 阶段**：第一阶段 · 项目收束　｜　**🛠️ 类型**：项目总结
+>
+> **🔩 技术栈**：STM32F103ZET6 · MPU6050 · Python · Edge Impulse · TinyML · OLED · UART
+>
+> **🎯 本篇关键词**：完整链路 · 数据集 · V1 → V2 · 模型部署 · 端侧推理 · 工程优化 · 泛化
+>
+> **✨ 本篇特色**：把前面一个个零散的知识点、Bug 和实验结果串成一条真正可以运行的工程链——这不是“教程结尾”，而是下一阶段继续打磨的起点。
+>
+> **🧪 实战状态**：第一阶段完整跑通　｜　**📈 项目主线**：能跑 → 稳定 → 可测量 → 下一步好用
 
 @[TOC](文章目录)
 
