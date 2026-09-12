@@ -146,7 +146,12 @@ MODE_SHOW_RESULT
 
 连续采集 100 个三轴样本，并更新 OLED 进度。
 
-![OLED 采样进度](https://cdn.jsdelivr.net/gh/nathanialkonggsd-hub/STM32-Gesture-TinyML@main/STM32-Gesture-TinyML/03_Images_and_Results/oled_sampling_progress.jpg#pic_center)
+> 🖼️ **图片 01｜OLED 采样进度**
+>
+> 请将原图下载到本地后，通过 CSDN 工具栏「图片」上传。
+>
+> 原图地址：
+> https://github.com/nathanialkonggsd-hub/STM32-Gesture-TinyML/blob/main/STM32-Gesture-TinyML/03_Images_and_Results/oled_sampling_progress.jpg
 
 ### `MODE_SHOW_RESULT`
 
@@ -199,7 +204,12 @@ Time: 32ms
 
 实际识别结果也会通过 USART1 输出，方便使用串口 / VOFA+ 进一步观察。
 
-![STM32 OLED 手势识别结果](https://cdn.jsdelivr.net/gh/nathanialkonggsd-hub/STM32-Gesture-TinyML@main/STM32-Gesture-TinyML/03_Images_and_Results/oled_result_display.jpg#pic_center)
+> 🖼️ **图片 02｜STM32 OLED 手势识别结果**
+>
+> 请将原图下载到本地后，通过 CSDN 工具栏「图片」上传。
+>
+> 原图地址：
+> https://github.com/nathanialkonggsd-hub/STM32-Gesture-TinyML/blob/main/STM32-Gesture-TinyML/03_Images_and_Results/oled_result_display.jpg
 
 ---
 
@@ -238,9 +248,9 @@ Time: 32ms
 │ 100×3    │
 └────┬─────┘
      ↓
-┌──────────┐
+┌───────────┐
 │ DSP/Feature│
-└────┬─────┘
+└────┬──────┘
      ↓
 ┌──────────┐
 │ TinyML   │
@@ -279,15 +289,26 @@ Time: 32ms
 
 ---
 
-## 系列进度
+## 📚 系列导航
 
 | # | 主题 | 状态 |
 |---:|:---|:---:|
 | 72 | 项目启动：系统架构与 MPU6050 数据采集 | ✅ |
 | 73 | STM32 手势数据采集：从串口到 CSV 数据集 | ✅ |
 | 74 | TinyML 特征提取与模型训练：V1 → V2 | ✅ |
-| 75 | TinyML 模型部署：Edge Impulse → STM32 | ✅ |
+| 75 | TinyML 模型部署：Edge Impulse → STM32F103 | ✅ |
 | **76** | **STM32 端侧实时手势推理** | 🟢 本文 |
-| 77 | TinyML 工程优化：Bug 与性能 | ⏳ |
-| 78 | 第一阶段项目总结 | ⏳ |
+| 77 | TinyML 工程优化：从 HardFault 到 32ms 推理 | ⏳ |
+| 78 | 第一阶段总结：STM32 TinyML 手势识别系统完整跑通 | ⏳ |
 | 79+ | 第二阶段：数据集扩充与泛化优化 | 🔮 |
+
+## 🔗 项目地址
+
+- **STM32 TinyML 项目仓库**：https://github.com/nathanialkonggsd-hub/STM32-Gesture-TinyML
+- **CSDN 文章仓库**：https://github.com/nathanialkonggsd-hub/CSDN
+
+## 👋 结语
+
+感谢阅读！如果这篇文章对你有帮助，欢迎收藏、点赞，也欢迎在评论区交流。
+
+项目仍在持续迭代，后续会继续记录从“能跑”到“可靠、可复现、可泛化”的过程。
