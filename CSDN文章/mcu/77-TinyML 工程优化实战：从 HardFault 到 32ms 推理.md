@@ -1,14 +1,14 @@
----
-number: 77
-category:
-  - MCU
-  - TinyML
-  - Embedded AI
-series: STM32
-level: Advanced
-type: Project
-status: Completed
----
+> 🧭 **文章档案｜STM32 TinyML 手势识别系列**
+>
+> **📌 编号**：No.77　｜　**🚀 阶段**：第一阶段 · 工程优化　｜　**🛠️ 类型**：问题复盘
+>
+> **🔩 技术栈**：STM32F103 · TinyML · CMSIS-DSP · RFFT · SRAM · Heap / Stack · OLED
+>
+> **🎯 本篇关键词**：量纲失配 · RFFT 约束 · DSP Heap · HardFault · 单轴盲区 · 性能测量
+>
+> **✨ 本篇特色**：这一篇不讲“漂亮的成功案例”，专门记录那些让程序崩掉、结果变差、速度变慢的坑——把 Bug 变成项目最有价值的工程资产。
+>
+> **🧪 实战状态**：问题已定位并完成阶段性优化　｜　**📈 项目主线**：发现问题 → 定位根因 → 修改 → 测量
 
 @[TOC](文章目录)
 
