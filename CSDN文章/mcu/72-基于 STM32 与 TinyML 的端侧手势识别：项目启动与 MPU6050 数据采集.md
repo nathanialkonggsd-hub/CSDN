@@ -1,14 +1,14 @@
----
-number: 72
-category:
-  - MCU
-  - TinyML
-  - Embedded AI
-series: STM32
-level: Advanced
-type: Project
-status: Completed
----
+> 🧭 **文章档案｜STM32 TinyML 手势识别系列**
+>
+> **📌 编号**：No.72　｜　**🚀 阶段**：第一阶段 · 项目启动　｜　**🛠️ 类型**：项目实战
+>
+> **🔩 技术栈**：STM32F103ZET6 · MPU6050 · I²C · USART1 · Python · TinyML
+>
+> **🎯 本篇关键词**：驱动初始化 · 三轴采样 · KEY0 防抖 · 串口数据链路 · CSV 数据集
+>
+> **✨ 本篇特色**：不急着讲“AI 有多智能”，先把一颗传感器产生的数据，完整地送到模型训练入口。
+>
+> **🧪 实战状态**：已跑通　｜　**📈 项目主线**：传感器 → 数据 → 模型 → MCU
 
 @[TOC](文章目录)
 
