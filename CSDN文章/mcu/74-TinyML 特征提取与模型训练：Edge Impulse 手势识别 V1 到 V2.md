@@ -1,15 +1,14 @@
----
-number: 74
-category:
-  - MCU
-  - TinyML
-  - Embedded AI
-series: STM32
-author: 小苏
-level: Advanced
-type: Project
-status: Completed
----
+> 🧭 **文章档案｜STM32 TinyML 手势识别系列**
+>
+> **📌 编号**：No.74　｜　**🚀 阶段**：第一阶段 · 模型训练　｜　**🛠️ 类型**：实验迭代
+>
+> **🔩 技术栈**：Edge Impulse · DSP · Spectral Features · 分类模型 · STM32 TinyML
+>
+> **🎯 本篇关键词**：300 维输入 · 特征提取 · V1 Baseline · V2 优化 · 验证集 · 泛化能力
+>
+> **✨ 本篇特色**：这一篇不把“100% 验证准确率”当成终点，而是记录一次真实的模型迭代：先建立 Baseline，再用实验数据决定优化方向。
+>
+> **🧪 实战状态**：V2 已完成　｜　**📈 项目主线**：原始数据 → 特征 → 模型 → 验证
 
 @[TOC](文章目录)
 
