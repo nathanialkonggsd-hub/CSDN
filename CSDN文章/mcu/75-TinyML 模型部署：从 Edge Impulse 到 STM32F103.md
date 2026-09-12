@@ -1,14 +1,14 @@
----
-number: 75
-category:
-  - MCU
-  - TinyML
-  - Embedded AI
-series: STM32
-level: Advanced
-type: Project
-status: Completed
----
+> 🧭 **文章档案｜STM32 TinyML 手势识别系列**
+>
+> **📌 编号**：No.75　｜　**🚀 阶段**：第一阶段 · 模型部署　｜　**🛠️ 类型**：嵌入式实战
+>
+> **🔩 技术栈**：Edge Impulse · C++ · Keil / MDK · STM32F103 · TFLite Micro · SRAM / Flash
+>
+> **🎯 本篇关键词**：模型上板 · 静态部署 · Semihosting · DSP Heap · Runtime · HardFault
+>
+> **✨ 本篇特色**：电脑上的模型只是“会跑”；真正把它塞进 STM32F103、面对 Flash / SRAM 和运行时依赖，才是 Embedded AI 真正开始的地方。
+>
+> **🧪 实战状态**：已完成部署　｜　**📈 项目主线**：训练模型 → C++ → MCU → 端侧推理
 
 @[TOC](文章目录)
 
