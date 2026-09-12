@@ -1,15 +1,14 @@
----
-number: 76
-category:
-  - MCU
-  - TinyML
-  - Embedded AI
-series: STM32
-author: 小苏
-level: Advanced
-type: Project
-status: Completed
----
+> 🧭 **文章档案｜STM32 TinyML 手势识别系列**
+>
+> **📌 编号**：No.76　｜　**🚀 阶段**：第一阶段 · 端侧推理　｜　**🛠️ 类型**：系统实战
+>
+> **🔩 技术栈**：STM32F103ZET6 · MPU6050 · Edge Impulse · C++ · OLED · USART1
+>
+> **🎯 本篇关键词**：300 点窗口 · `signal_t` · `run_classifier()` · 状态机 · KEY0 防抖 · OLED 结果
+>
+> **✨ 本篇特色**：这是模型第一次真正站在 STM32 上完成“采样 → 推理 → 输出”的闭环——从训练电脑里的模型，变成手里这块板子上的实时能力。
+>
+> **🧪 实战状态**：端到端已跑通　｜　**📈 项目主线**：传感器 → 推理 → 结果
 
 @[TOC](文章目录)
 
