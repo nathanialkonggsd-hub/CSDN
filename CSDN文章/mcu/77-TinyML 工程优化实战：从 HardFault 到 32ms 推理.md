@@ -332,7 +332,7 @@ last_infer_time = HAL_GetTick() - t_start;
 
 ## 🔗 项目地址
 
-- **STM32 TinyML 项目仓库**：https://github.com/nathanialkonggsd-hub/STM32-Gesture-TinyML
+- [**STM32 TinyML 项目仓库**：https://github.com/nathanialkonggsd-hub/STM32-Gesture-TinyML](https://github.com/nathanialkonggsd-hub/STM32-Gesture-TinyML)
 
 ## 👋 结语
 
