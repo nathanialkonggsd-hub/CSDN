@@ -1,14 +1,14 @@
----
-number: 73
-category:
-  - MCU
-  - TinyML
-  - Embedded AI
-series: STM32
-level: Advanced
-type: Project
-status: Completed
----
+> 🧭 **文章档案｜STM32 TinyML 手势识别系列**
+>
+> **📌 编号**：No.73　｜　**🚀 阶段**：第一阶段 · 数据工程　｜　**🛠️ 类型**：实战记录
+>
+> **🔩 技术栈**：STM32F103ZET6 · MPU6050 · USART1 · Python · PySerial · CSV
+>
+> **🎯 本篇关键词**：串口采集 · 数据边界 · 自动编号 · 标签体系 · 数据集管理
+>
+> **✨ 本篇特色**：不再只是“把数据打印出来”，而是把 STM32 产生的数据真正变成可以训练、可以复用、可以继续扩充的数据资产。
+>
+> **🧪 实战状态**：已跑通　｜　**📈 项目主线**：硬件 → 数据 → 数据集 → 模型
 
 @[TOC](文章目录)
 
