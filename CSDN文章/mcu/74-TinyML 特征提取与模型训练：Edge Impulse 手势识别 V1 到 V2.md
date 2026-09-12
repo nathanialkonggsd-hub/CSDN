@@ -279,7 +279,6 @@ V2 特征处理 ≈ 2 ms
 ## 🔗 项目地址
 
 - **STM32 TinyML 项目仓库**：https://github.com/nathanialkonggsd-hub/STM32-Gesture-TinyML
-- **CSDN 文章仓库**：https://github.com/nathanialkonggsd-hub/CSDN
 
 ## 👋 结语
 
