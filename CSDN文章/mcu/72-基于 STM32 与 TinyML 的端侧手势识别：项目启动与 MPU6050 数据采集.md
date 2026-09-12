@@ -284,9 +284,12 @@ Python 自动保存
 
 项目实物图：
 
-![STM32F103ZET6 开发板](https://cdn.jsdelivr.net/gh/nathanialkonggsd-hub/STM32-Gesture-TinyML@main/STM32-Gesture-TinyML/03_Images_and_Results/STMF103ZET6.jpg#pic_center)
-
-> 🖼️ **图片处理规则**：本文开始统一使用绝对 CDN 图片地址，不再使用 GitHub 相对路径。这样从 Markdown 粘贴到 CSDN 编辑器时，不依赖当前文件所在目录。
+> 🖼️ **图片 01｜STM32F103ZET6 开发板实物图**
+>
+> CSDN 编辑器当前无法稳定转存外部图片地址，请将原图下载到本地，再通过 CSDN 工具栏「图片」重新上传。
+>
+> 原图地址：
+> https://github.com/nathanialkonggsd-hub/STM32-Gesture-TinyML/blob/main/STM32-Gesture-TinyML/03_Images_and_Results/STMF103ZET6.jpg
 
 ---
 
@@ -316,23 +319,26 @@ CSV
 
 ---
 
-## 十二、系列进度
+## 📚 系列导航
 
 | # | 主题 | 状态 |
 |---:|:---|:---:|
 | **72** | **项目启动：系统架构与 MPU6050 数据采集** | 🟢 本文 |
 | 73 | STM32 手势数据采集：从串口到 CSV 数据集 | ⏳ |
-| 74 | TinyML 特征提取与模型训练 | ⏳ |
-| 75 | TinyML 模型部署：Edge Impulse → STM32 | ⏳ |
-| 76 | STM32 端侧实时推理 | ⏳ |
-| 77 | TinyML 工程优化：Bug 与性能 | ⏳ |
-| 78 | 第一阶段项目总结 | ⏳ |
+| 74 | TinyML 特征提取与模型训练：V1 → V2 | ⏳ |
+| 75 | TinyML 模型部署：Edge Impulse → STM32F103 | ⏳ |
+| 76 | STM32 端侧实时手势推理 | ⏳ |
+| 77 | TinyML 工程优化：从 HardFault 到 32ms 推理 | ⏳ |
+| 78 | 第一阶段总结：STM32 TinyML 手势识别系统完整跑通 | ⏳ |
 | 79+ | 第二阶段：数据集扩充与泛化优化 | 🔮 |
 
-> **下一篇：**《STM32 手势数据采集：从串口到 CSV 数据集》
+## 🔗 项目地址
 
----
+- **STM32 TinyML 项目仓库**：https://github.com/nathanialkonggsd-hub/STM32-Gesture-TinyML
+- **CSDN 文章仓库**：https://github.com/nathanialkonggsd-hub/CSDN
 
-**项目仓库：** `nathanialkonggsd-hub/STM32-Gesture-TinyML`
+## 👋 结语
 
-**项目状态：** 🚧 持续开发中
+感谢阅读！如果这篇文章对你有帮助，欢迎收藏、点赞，也欢迎在评论区交流。
+
+项目仍在持续开发，下一篇继续进入数据采集与数据集工程。
