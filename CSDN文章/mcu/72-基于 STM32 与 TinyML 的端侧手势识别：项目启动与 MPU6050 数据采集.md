@@ -1,4 +1,4 @@
-> 🧭 **文章档案｜STM32 TinyML 手势识别系列**
+﻿> 🧭 **文章档案｜STM32 TinyML 手势识别系列**
 >
 > **📌 编号**：No.72　｜　**🚀 阶段**：第一阶段 · 项目启动　｜　**🛠️ 类型**：项目实战
 >
@@ -284,12 +284,8 @@ Python 自动保存
 
 项目实物图：
 
-> 🖼️ **图片 01｜STM32F103ZET6 开发板实物图**
->
-> CSDN 编辑器当前无法稳定转存外部图片地址，请将原图下载到本地，再通过 CSDN 工具栏「图片」重新上传。
->
-> 原图地址：
-> https://github.com/nathanialkonggsd-hub/STM32-Gesture-TinyML/blob/main/STM32-Gesture-TinyML/03_Images_and_Results/STMF103ZET6.jpg
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/e8e7190c73e340639b2e7a8ea07e2fc4.jpeg#pic_center)
+
 
 ---
 
